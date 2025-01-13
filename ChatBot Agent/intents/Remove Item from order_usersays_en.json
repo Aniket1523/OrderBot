@@ -1,0 +1,292 @@
+[
+  {
+    "id": "2ff69aef-fecf-4391-9d82-dcafb6cf359a",
+    "data": [
+      {
+        "text": "Remove ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " from the list.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03f4a0ee-018f-4c58-88b7-aa0ce8554086",
+    "data": [
+      {
+        "text": "Get rid of ",
+        "userDefined": false
+      },
+      {
+        "text": "plywood",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " from my order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbd12104-9d9b-4291-b0c8-164fca007e2f",
+    "data": [
+      {
+        "text": "I don\u0027t need ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " anymore.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39380553-ddcf-4e2e-a370-45c669dbc1f0",
+    "data": [
+      {
+        "text": "Take ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fans",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " off my order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d133979e-562a-45c8-9cdc-8c3359ef947b",
+    "data": [
+      {
+        "text": "Remove ",
+        "userDefined": false
+      },
+      {
+        "text": "paint",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dff04862-33f2-4114-a4de-1bcf351becc1",
+    "data": [
+      {
+        "text": "Cancel ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fan",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0dab3a6d-423f-420a-a47b-bd6156cd6a03",
+    "data": [
+      {
+        "text": "Delete ",
+        "userDefined": false
+      },
+      {
+        "text": "plywood",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " from my order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d91a806b-a944-43ec-8db8-a0fd506f86e6",
+    "data": [
+      {
+        "text": "I want to remove ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "583a15bb-eb28-46b0-a616-15c4169d535d",
+    "data": [
+      {
+        "text": "Take out ",
+        "userDefined": false
+      },
+      {
+        "text": "paint",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " from my order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef5c06b5-9831-43c1-a002-a7772d25cb82",
+    "data": [
+      {
+        "text": "Remove ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "meta": "@Quantity",
+        "alias": "quantity",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fan",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " from my order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

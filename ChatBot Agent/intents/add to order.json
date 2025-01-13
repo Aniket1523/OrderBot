@@ -1,0 +1,129 @@
+{
+  "id": "af368967-e457-4fff-a830-14ac3664bd19",
+  "name": "add to order",
+  "auto": true,
+  "contexts": [
+    "awaiting_product"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_product",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5a823daf-116a-4de8-bc2f-233b00e5462d",
+          "name": "quantity",
+          "required": true,
+          "dataType": "@Quantity",
+          "value": "$quantity",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "It seems like you haven\u0027t mentioned the quantity for $product_name. How many would you like to order? For example, 2 sheets of plywood or 5 cans of paint."
+            },
+            {
+              "lang": "en",
+              "value": "I noticed you didn\u0027t specify the quantity for $product_name. Could you let me know how many items you want to order? Example, 4 lights."
+            },
+            {
+              "lang": "en",
+              "value": "I need the quantity of $product_name to complete your order. How many would you like to order? Like 2 plywood sheets or 6 buckets of paint."
+            },
+            {
+              "lang": "en",
+              "value": "You’ve mentioned the $product_name, but I still need the quantity. How many would you like to order? For example, 3 sheets of plywood or 1 can of paint."
+            },
+            {
+              "lang": "en",
+              "value": "Could you please provide the quantity of $product_name for your order? For instance, 5 lights or 10 sheets of plywood."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d620e4ba-e5b9-487b-bf6d-e56bd8159e0a",
+          "name": "product_name",
+          "required": true,
+          "dataType": "@Product_Name",
+          "value": "$product_name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please let me know what product you would like to order. For example, plywood, paint, lights, or fans. Don\u0027t forget to mention the quantity, like 3 sheets of plywood or 4 cans of paint."
+            },
+            {
+              "lang": "en",
+              "value": "Can you specify the product you\u0027d like to order? You can choose from plywood, paint, lights, or fans. Please also include the quantity, such as 5 plywood sheets or 2 cans of paint."
+            },
+            {
+              "lang": "en",
+              "value": "To place your order, please tell me the product you\u0027d like to purchase, like plywood, paint, lights, or fans. Be sure to mention the quantity, e.g., 10 sheets of plywood or 3 buckets of paint."
+            },
+            {
+              "lang": "en",
+              "value": "What would you like to add to your order? You can order items like plywood, paint, lights, or fans. Make sure to provide the quantity, such as 4 lights or 7 fans."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7a7d5444-70ac-4f2a-ad8b-7cc555f06531",
+          "name": "color",
+          "required": false,
+          "dataType": "@sys.color",
+          "value": "$color",
+          "defaultValue": "NA",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cart Summary : \n$product_name $quantity\n\nAnything else? ",
+            "I’ve got your order for $product_name $quantity.original\nIs there anything else I can help you with?",
+            "\"Your order for $quantity $product_name is noted. Would you like to add anything else?\"",
+            "\"Great!. Is there anything else you’d like to add to your order?\" \nCart Summary : \n$product_name $quantity",
+            "Cart Summary : \n$product_name $quantity\nAnything else you need?\"",
+            "\"Your items  $quantity $product_name is added to cart. Would you like to add more items to your order?\"",
+            "Your order has been noted.\nCart Summary : \n$product_name $quantity\n Would you like to order something else?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

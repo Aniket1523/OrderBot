@@ -1,0 +1,83 @@
+{
+  "id": "cba422af-23e3-44f5-99aa-f421d0f0d202",
+  "name": "Track Order Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "track_order_context",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2a38c2db-cb75-4f50-92b3-97fa26466035",
+          "name": "product_name",
+          "required": false,
+          "dataType": "@Product_Name",
+          "value": "$product_name",
+          "defaultValue": "NA",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "663359e2-a1d9-4c79-bcbe-da0559c0b240",
+          "name": "Order_ID",
+          "required": true,
+          "dataType": "@Order_ID",
+          "value": "$Order_ID",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me order_id."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To track your order, please provide your Order ID.",
+            "\"Can you share your Order ID so I can check the status of your order?\"",
+            "\"I’ll need your Order ID to check the status of your order. Please provide it.\"",
+            "\"Please provide your Order ID to track your order.\"",
+            "\"In order to track your order, I’ll need the Order ID. Could you share it?\"",
+            "\"To proceed with tracking your order, I need your Order ID. Please share it.\"",
+            "\"Give me your Order ID, and I’ll find out the status of your order.\"",
+            "\"Could you provide the Order ID so I can track your order for you?\"",
+            "\"Please provide the Order ID to help me track your order.\"",
+            "\"I need your Order ID to check the status of your order. What is it?\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

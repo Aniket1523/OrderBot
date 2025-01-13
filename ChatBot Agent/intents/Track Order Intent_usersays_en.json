@@ -1,0 +1,333 @@
+[
+  {
+    "id": "119b9bc3-d975-42f1-a912-ef22fcc6d61b",
+    "data": [
+      {
+        "text": "20",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ae49f0e-d610-4d53-b533-3265bba7ad22",
+    "data": [
+      {
+        "text": "17",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebbb374d-21e6-4d0f-b2f6-b5451a204ea3",
+    "data": [
+      {
+        "text": "Check order ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbe25a5e-6817-4676-abfb-14c900c69522",
+    "data": [
+      {
+        "text": "Order ID ",
+        "userDefined": false
+      },
+      {
+        "text": "789",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0aee3e8a-d4f4-49bc-b07c-ac48eb736688",
+    "data": [
+      {
+        "text": "Track my order ",
+        "userDefined": false
+      },
+      {
+        "text": "456",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54291ad4-816c-46dc-9eec-6f5915ab006b",
+    "data": [
+      {
+        "text": "My Order ID is ",
+        "userDefined": false
+      },
+      {
+        "text": "123",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83a5089b-78cc-458c-bfb4-830951d3ce1b",
+    "data": [
+      {
+        "text": "Where is my order ",
+        "userDefined": false
+      },
+      {
+        "text": "123",
+        "meta": "@Order_ID",
+        "alias": "Order_ID",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "748f39b0-1512-4c94-8caf-e004beaff5e2",
+    "data": [
+      {
+        "text": "\"Give me an update on my order for ",
+        "userDefined": false
+      },
+      {
+        "text": "paint",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": ".\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "126fbef6-22d1-4728-99d6-ad41c29db600",
+    "data": [
+      {
+        "text": "\"Has my ",
+        "userDefined": false
+      },
+      {
+        "text": "plywood",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " order been dispatched?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "04e52aba-8e62-4a0d-bf32-1425fb421ff6",
+    "data": [
+      {
+        "text": "\"Is my order shipped yet?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26eb2358-b2ba-40b8-80c6-33e2b4f7426c",
+    "data": [
+      {
+        "text": "\"Can you track my ",
+        "userDefined": false
+      },
+      {
+        "text": "fan",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " order?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91ce6d96-0309-48a6-bb35-82b82dfd1e2f",
+    "data": [
+      {
+        "text": "\"When will my ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " be delivered?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce803be6-0cc8-4a45-b020-8af1a06aa29a",
+    "data": [
+      {
+        "text": "\"What\u0027s the current status of my ",
+        "userDefined": false
+      },
+      {
+        "text": "paint",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": " order?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31700a5f-c16c-4e07-8a74-065fd3209c9b",
+    "data": [
+      {
+        "text": "\"I want to know the delivery status of my order.\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66570097-a6e3-4e57-ba36-84f51137d796",
+    "data": [
+      {
+        "text": "\"Track my order for ",
+        "userDefined": false
+      },
+      {
+        "text": "plywood",
+        "meta": "@Product_Name",
+        "alias": "product_name",
+        "userDefined": false
+      },
+      {
+        "text": ".\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "663d21ce-4a77-4771-a0e4-ff7b470550d7",
+    "data": [
+      {
+        "text": "\"Can you tell me the status of my order?\"",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72ee28e4-d50c-4c87-8852-434ca20969e3",
+    "data": [
+      {
+        "text": "Where is my order?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

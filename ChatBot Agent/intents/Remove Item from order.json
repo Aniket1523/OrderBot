@@ -1,0 +1,81 @@
+{
+  "id": "8c362f68-34f0-4e38-8989-0e08adbe165f",
+  "name": "Remove Item from order",
+  "auto": true,
+  "contexts": [
+    "awaiting_product"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_product",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bdf37fbf-5cad-4f3e-aacd-d9dd501a296f",
+          "name": "quantity",
+          "required": true,
+          "dataType": "@Quantity",
+          "value": "$quantity",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please let me know the quantity."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "46198840-7d2c-4e3d-b8c2-91af8d8df709",
+          "name": "product_name",
+          "required": true,
+          "dataType": "@Product_Name",
+          "value": "$product_name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please let me know the product you want to remove"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I will remove the if from your order. Do you want to remove anything else?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

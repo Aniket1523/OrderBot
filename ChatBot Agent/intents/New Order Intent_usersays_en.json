@@ -1,0 +1,184 @@
+[
+  {
+    "id": "c0955322-453a-4bb9-ab91-e68802a8632a",
+    "data": [
+      {
+        "text": "I want to buy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90a78cd3-68fd-4043-b9e5-6df354eee775",
+    "data": [
+      {
+        "text": "place order for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47342948-b124-457e-8a4f-158e8dbfe574",
+    "data": [
+      {
+        "text": "I want",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6bbf8aa5-7854-43f6-96fe-3fce0bc3d9fc",
+    "data": [
+      {
+        "text": "Place an order for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef619ce8-f92b-468a-8380-27d903b4e2aa",
+    "data": [
+      {
+        "text": "Can you help me place an order for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39a9d20c-6664-455f-9e7b-15f83475f84b",
+    "data": [
+      {
+        "text": "Get me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30222d3a-dd72-4827-ac6f-d85ac330b075",
+    "data": [
+      {
+        "text": "I\u0027d like to order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e85e94fd-4532-42df-a618-27da2de6cbbd",
+    "data": [
+      {
+        "text": "Order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f490c65-fc66-4a72-9e4d-9b558aa69930",
+    "data": [
+      {
+        "text": "I need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "200b8a0f-38bc-45e9-8db3-900b7a637068",
+    "data": [
+      {
+        "text": "Can you place an order for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d6db087-7ed6-4a50-bf10-f7c31a29bf66",
+    "data": [
+      {
+        "text": "I want to order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a67e9645-f2f4-4772-ae40-d3438c70b4c9",
+    "data": [
+      {
+        "text": "Order this product.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7000a7d4-1dd5-4d34-b371-740d4ed778e0",
+    "data": [
+      {
+        "text": "I want to place an order.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d49f7adf-9d06-4350-9046-54ce5d32e62c",
+    "data": [
+      {
+        "text": "new order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

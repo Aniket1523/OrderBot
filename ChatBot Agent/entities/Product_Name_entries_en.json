@@ -1,0 +1,35 @@
+[
+  {
+    "value": "paint",
+    "synonyms": [
+      "paint",
+      "color",
+      "paints"
+    ]
+  },
+  {
+    "value": "fan",
+    "synonyms": [
+      "fan",
+      "fans",
+      "Fans"
+    ]
+  },
+  {
+    "value": "light",
+    "synonyms": [
+      "lights",
+      "light",
+      "bulb"
+    ]
+  },
+  {
+    "value": "plywood",
+    "synonyms": [
+      "plywood",
+      "plywoods",
+      "wood",
+      "ply"
+    ]
+  }
+]

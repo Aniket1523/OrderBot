@@ -1,0 +1,37 @@
+{
+  "id": "b2a2a39f-62dd-4d15-a62e-b7808f8e51bc",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I’m sorry, I didn’t understand that. I can help you place an order for products like Plywood or Paint, or track an order. For example, you can say, \u0027Order 3 sheets of Plywood\u0027 or \u0027Track my order with ID 12345.",
+            "Apologies, I couldn’t process that. You can ask me to place an order, like \u0027I need 5 liters of Paint,\u0027 or track an order by saying \u0027Track my order ID 56789.\u0027",
+            "I’m not sure I understood. For now, I can help you place orders or track existing ones. You can say things like, \u0027Order 3 sheets of Plywood\u0027 or \u0027Track order ID 12345.\u0027 Could you try again?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

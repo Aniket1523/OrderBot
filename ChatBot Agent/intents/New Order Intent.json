@@ -1,0 +1,44 @@
+{
+  "id": "86070d6c-71a6-444b-b0b4-34910e9e8854",
+  "name": "New Order Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting_product",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know what product you would like to order. For example, plywood, paint, lights, or fans. Don\u0027t forget to mention the quantity, like 3 sheets of plywood or 4 cans of paint.",
+            "\"Sure! Please let me know what product you\u0027d like to order, such as plywood, paint, lights, or fans. Also, mention the quantity, like 2 sheets of plywood or 5 cans of paint.\"",
+            "\"Got it! What product would you like to order today? You can choose from plywood, paint, lights, or fans. Don’t forget to include the quantity, like 3 sheets of plywood or 4 lights.\"",
+            "\"Great! Please tell me the product you want to order—plywood, paint, lights, or fans. Also, mention how many you would like, like 2 sheets of plywood or 3 cans of paint.\"",
+            "\"Thanks for your order request! Could you specify the product you want to order—plywood, paint, lights, or fans? Also, let me know the quantity, 6 plywood.\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

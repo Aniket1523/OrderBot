@@ -1,0 +1,49 @@
+{
+  "id": "db9d09f3-931b-4c42-9f37-9b2869d76560",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hello! How can I help you? You want to place an order or track your order?",
+            "Hi there! What can I assist you with today? Placing an order or tracking your order?",
+            "Hello! How may I help you? Would you like to place a new order or check the status of an existing one?",
+            "Welcome! Are you here to place an order or track your current order?",
+            "Hi! I’m here to assist you. Would you like to order something or track an order?",
+            "Hello! How can I assist you today? Need help placing an order or tracking one?",
+            "Greetings! What would you like to do today? Place an order or check your order status?",
+            "Welcome to MSI Services! Can I help you with placing an order or tracking an order?",
+            "Hi! What can I do for you today? Are you looking to order something or track an existing order?",
+            "Hello! Let me know how I can help. Are you here to place a new order or track your existing one?",
+            "Hi there! Do you want to place an order, track your order, or something else?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
